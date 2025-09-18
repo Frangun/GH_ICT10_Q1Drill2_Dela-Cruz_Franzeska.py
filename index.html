@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- PYSCRIPT -->
+     <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+
+    <!-- !-- SETUP BOOTSTAP: link to Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- EX 4 TO DRILL -->
+    <title>Working with Integers</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            font-family: monospace;
+            padding: 20px
+        }
+
+        .container-fluid {
+            color: maroon;
+        }
+
+        .container-fluid2 {
+            color: maroon;
+            background-color: rgb(168, 197, 223);
+            font-size: 35px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid mt-5">
+        <h1>Form</h1>
+    <form class="mt-3">
+        
+        <input class="form-control mt-3" id="num1" type="number" placeholder="Enter num1"> <br>
+
+        <input class="form-control mt-3" id="num2" type="number" placeholder="Enter num2"> <br>
+
+        <input class="form-control mt-3" id="height" type="height" placeholder="Enter height"> <br>
+
+        
+        <input class="form-control mt-3" type="button" value="enter" py-click="printing_data">
+    </form>
+    </div>
+
+    <!-- DIV1 -->
+    <div class="container-fluid2 mt-3" id="div2">
+
+
+
+    </div>
+
+
+    <!-- PYSCRIPT -->
+    <py-script src="main.py"></py-script>
+</body>
+</html>
